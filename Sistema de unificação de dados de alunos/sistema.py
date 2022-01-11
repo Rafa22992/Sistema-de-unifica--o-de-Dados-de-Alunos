@@ -44,3 +44,4 @@ for medias,grupo_alunos in valores_agrupados:
     print(30*'-')
  
     quant = len(list(grupo_alunos))
+    print(f'{quant} alinos tiraram nota:{medias}')
