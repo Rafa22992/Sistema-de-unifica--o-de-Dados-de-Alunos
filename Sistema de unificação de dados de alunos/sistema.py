@@ -9,7 +9,7 @@ def f_nota(): # Calcula média do aluno
     c_nota = 0
     while c_nota < 4:
      c_nota += 1
-     d_nota =input('Digite nota as notas do aluno:')
+     d_nota =input('Digite as notas do aluno:')
      nota.append(d_nota)
      soma = sum([ float(s) for s in nota]) / 4
     media.append(soma)
@@ -44,4 +44,4 @@ for medias,grupo_alunos in valores_agrupados:
     print(30*'-')
  
     quant = len(list(grupo_alunos))
-    print(f'{quant} alinos tiraram nota:{medias}')
+    print(f'{quant} alunos tiraram nota:{medias}')
